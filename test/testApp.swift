@@ -31,7 +31,6 @@ struct testApp: App {
 }
 
 final class SessionManager: ObservableObject {
-    // Needs to publish so the app view will update by being able to see the changes
     @Published var state: State_ = .select
     
     func showSel() {
