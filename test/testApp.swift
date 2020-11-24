@@ -7,11 +7,37 @@
 
 import SwiftUI
 
+enum State_ {
+    case select
+    case city
+}
+
 @main
 struct testApp: App {
+    @ObservedObject var sessionManager = SessionManager()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            switch sessionManager.state{
+            case .select:
+                ContentView()
+                    .environmentObject(sessionManager)
+            case .city:
+                CityVieew()
+                    .environmentObject(sessionManager)
+            }
         }
+    }
+}
+
+final class SessionManager: ObservableObject {
+    // Needs to publish so the app view will update by being able to see the changes
+    @Published var state: State_ = .select
+    
+    func showSel() {
+        state = .select
+    }
+    func showCity() {
+        state = .city
     }
 }

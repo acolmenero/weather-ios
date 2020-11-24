@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		77989734256B2D65005344FA /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77989733256B2D65005344FA /* Weather.swift */; };
+		7798973F256C8B76005344FA /* CityVieew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7798973E256C8B76005344FA /* CityVieew.swift */; };
 		77A7257625672A7400E91CA8 /* testApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A7257525672A7400E91CA8 /* testApp.swift */; };
 		77A7257825672A7400E91CA8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A7257725672A7400E91CA8 /* ContentView.swift */; };
 		77A7257A25672A7800E91CA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77A7257925672A7800E91CA8 /* Assets.xcassets */; };
@@ -33,6 +34,7 @@
 
 /* Begin PBXFileReference section */
 		77989733256B2D65005344FA /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		7798973E256C8B76005344FA /* CityVieew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityVieew.swift; sourceTree = "<group>"; };
 		77A7257225672A7400E91CA8 /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77A7257525672A7400E91CA8 /* testApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testApp.swift; sourceTree = "<group>"; };
 		77A7257725672A7400E91CA8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 			children = (
 				77A7257525672A7400E91CA8 /* testApp.swift */,
 				77989733256B2D65005344FA /* Weather.swift */,
+				7798973E256C8B76005344FA /* CityVieew.swift */,
 				77A7257725672A7400E91CA8 /* ContentView.swift */,
 				77A7257925672A7800E91CA8 /* Assets.xcassets */,
 				77A7257E25672A7800E91CA8 /* Info.plist */,
@@ -239,6 +242,7 @@
 				77A7257825672A7400E91CA8 /* ContentView.swift in Sources */,
 				77989734256B2D65005344FA /* Weather.swift in Sources */,
 				77A7257625672A7400E91CA8 /* testApp.swift in Sources */,
+				7798973F256C8B76005344FA /* CityVieew.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
